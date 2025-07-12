@@ -15,6 +15,7 @@ export default function Header() {
             <div className="ButtonControl">
                 <TableManagement />
             </div>
+            Hello user
         </div>
     )
 }
