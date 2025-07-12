@@ -5,3 +5,4 @@ export default function SideBar() {
         </div>
     )
 }
+console.log(2)

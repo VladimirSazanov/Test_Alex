@@ -7,3 +7,4 @@ export default function TableManagement () {
         </div>
     )
 }
+console.log(3)
