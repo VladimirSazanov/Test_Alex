@@ -1,4 +1,4 @@
-import Header from "./Components/Invoices/Header/Header";
+import Header from "./Header/Header";
 
 export default function Invoices() {
     return (

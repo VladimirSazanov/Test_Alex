@@ -1,13 +1,39 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.Page {
+    display: flex;
+    background-color: #d3d3d3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.Invoices {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 10px 0 0 0;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+.SideBar {
+    width: 25em;
+    background-color: #d3d3d3;
+}
+
+button {
+    height: 35px;
+    margin-right: 10px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.AddNewButton, .ImportButton {
+    background-color: orange;
+}
+
+.Header {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
